@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="31.5">
+    <testcase classname="Login features" name="Register new user name" time="31.21">
+        <system-out><![CDATA[Given I am able to navigate onto the login page.............................passed
+When I click on the sign up button..........................................passed
+When I enter the firstname as "kogile27"....................................passed
+And I enter the lastname as "nethra27"......................................passed
+And I enter the e-mail as "domin27@gmail.com"...............................passed
+And I enter the username as "nethra12327"...................................passed
+And I enter the password as "admin12327"....................................passed
+And I enter the confirmpassword as "admin12327".............................passed
+And I click on the registration button......................................passed
+And I click on the picture button...........................................passed
+And I click on the inbox button.............................................passed
+And I click on the compose button...........................................passed
+And I click on sendto as "nethrakg@gmail"...................................passed
+And I enter the subject as "Hi For Testing".................................passed
+And I click on the Send Message button......................................passed
+Then I should see the acknowledgement window as "The message has been sent to kogile nethra (nethra123)".passed
+]]></system-out>
+    </testcase>
+</testsuite>

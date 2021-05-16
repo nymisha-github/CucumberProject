@@ -1,0 +1,270 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-20T04:29:03.477Z",
+        "line": 8,
+        "name": "Register new user name",
+        "description": "",
+        "id": "login-features;register-new-user-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10736007100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am able to navigate onto the login page",
+            "match": {
+              "location": "stepsdefinition.steps.i_am_able_to_navigate_onto_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2699243400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the sign up button",
+            "match": {
+              "location": "stepsdefinition.steps.i_click_on_the_sign_up_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74814800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter the firstname as \"kogile27\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kogile27\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepsdefinition.steps.i_enter_the_firstname_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80784400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter the lastname as \"nethra27\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nethra27\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepsdefinition.steps.i_enter_the_lastname_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68423000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter the e-mail as \"domin27@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"domin27@gmail.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepsdefinition.steps.i_enter_the_e_mail_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58843200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the username as \"nethra12327\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nethra12327\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepsdefinition.steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98735800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter the password as \"admin12327\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin12327\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepsdefinition.steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74801400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter the confirmpassword as \"admin12327\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin12327\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepsdefinition.steps.i_enter_the_confirmpassword_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2139870400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on the registration button",
+            "match": {
+              "location": "stepsdefinition.steps.i_click_on_the_registration_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255406200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on the picture button",
+            "match": {
+              "location": "stepsdefinition.steps.i_click_on_the_picture_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2460373000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the inbox button",
+            "match": {
+              "location": "stepsdefinition.steps.i_click_on_the_inbox_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2848191300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on the compose button",
+            "match": {
+              "location": "stepsdefinition.steps.i_click_on_the_compose_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5377070300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on sendto as \"nethrakg@gmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nethrakg@gmail\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepsdefinition.steps.i_click_on_sendto_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62832000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter the subject as \"Hi For Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hi For Testing\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepsdefinition.steps.i_enter_the_subject_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2480575400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on the Send Message button",
+            "match": {
+              "location": "stepsdefinition.steps.i_click_on_the_send_message_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1549530700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see the acknowledgement window as \"The message has been sent to kogile nethra (nethra123)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The message has been sent to kogile nethra (nethra123)\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepsdefinition.steps.i_should_see_the_acknowledgement_window_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login features",
+    "description": "This feature includes sceanrio that would be validate the following feature\n1) Register new user name",
+    "id": "login-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FirstProject/FirstProject.feature",
+    "tags": []
+  }
+]
